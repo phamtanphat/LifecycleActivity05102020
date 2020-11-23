@@ -33,6 +33,12 @@ public class MainActivity2 extends AppCompatActivity {
 
 
     @Override
+    protected void onStart() {
+        super.onStart();
+        Log.d("BBB","onStart2");
+    }
+
+    @Override
     protected void onResume() {
         super.onResume();
         Log.d("BBB","onResume2");
