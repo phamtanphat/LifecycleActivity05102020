@@ -17,7 +17,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
-        android:id="@+id/buttonNavigateScreen2"
+        android:id="@+id/buttonReloadScreen3"
+        android:text="Reload Screen 3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/buttonNavigateScreen3"
         android:text="Navigate Screen 1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>

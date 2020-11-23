@@ -24,19 +24,13 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View v) {
                 //Intent implicit : Dung xu ly cho doi khong cu the
                 //Intent explicit : Dung xu ly cho doi tuong cu the
-//                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
-//                startActivity(intent);
-//                finishAffinity();
+                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                startActivity(intent);
+
             }
         });
     }
 
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        Log.d("BBB","onStart2");
-    }
 
     @Override
     protected void onResume() {
