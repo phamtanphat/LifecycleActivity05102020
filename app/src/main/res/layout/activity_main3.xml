@@ -6,19 +6,19 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="#EAEAEA"
+    android:background="#74FFA726"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_marginBottom="20dp"
         android:textColor="#f20"
         android:textSize="50sp"
-        android:text="Screen 1"
+        android:text="Screen 3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
         android:id="@+id/buttonNavigateScreen2"
-        android:text="Navigate Screen 2"
+        android:text="Navigate Screen 1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
